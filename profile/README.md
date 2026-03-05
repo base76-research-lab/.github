@@ -1,35 +1,63 @@
 # Base76 Research Lab
 
-Independent AI research lab (Sjobö, Sweden) focused on *mechanisms* behind reliability in transformer-based systems:
-mechanistic interpretability, epistemic calibration, and observable agentic infrastructure.
+Independent AI research lab (Sjobo, Sweden) focused on reliability mechanisms in transformer-based systems.
+This org is the engineering layer where research claims are tested, instrumented, and moved into usable systems.
 
-If you want the narrative/paper trail: the Applied AI Philosophy org contains the publication repos with visual,
-easy-to-follow research stories.
+## Research to Product
 
-- Papers + research narratives: https://github.com/Applied-Ai-Philosophy
+Base76 follows a strict flow:
+1. Hypothesis (theory and framing)
+2. Measured evidence (artifacts, logs, reproducible runs)
+3. Validation (stress tests, failure modes, threat analysis)
+4. Productization (trust gates, APIs, deployment patterns)
+
+This is not a demo portfolio. It is a research pipeline that ships operational components.
+
+## Org Roles
+
+- `base76-research-lab`: experiments, instrumentation, eval pipelines, and production-facing systems.
+- `Applied-Ai-Philosophy`: papers, conceptual frameworks, and narrative research tracks.
+- Papers and research narratives: https://github.com/Applied-Ai-Philosophy
 
 ---
 
-## Active research tracks
+## Start Here (Evidence First)
 
 ### [Mechanistic Interpretability](https://github.com/base76-research-lab/Mechanistic-Interpretability)
-SAE + subspace probes + patching. Current milestone: "Field View" (a geometry-based risk signal built from
-state-to-candidate misalignment).
+Current milestone: "Field View" (geometry-based risk signal from state-to-candidate misalignment).
+Includes:
+- Findings reports
+- Reproducible scripts
+- Run artifacts and logs
+- Notebook-based follow-up experiments
+
+Read first:
+- `reports/exp_001_sae.md`
+- `reports/feature_dict.md`
+- `reports/logs/2026-03-04.md`
 
 ### CognOS
-Meta-reasoning and trust-gated inference pipelines; multi-provider routing and evaluation harnesses.
+Meta-reasoning and trust-gated inference pipelines with multi-provider routing and validation harnesses.
 
 ### [TrustPlane](https://github.com/base76-research-lab/TrustPlane)
-Pluggable trust-scoring gateway with EU AI Act compliance reporting (Articles 9, 12, 13, 14).
+Trust-scoring gateway with EU AI Act reporting paths (Articles 9, 12, 13, 14).
 
-### FNC — Field-Node-Cockpit
-Framework for describing "field" dynamics, discrete features (nodes), steering layers (cockpit), and collapse to tokens.
-Repos and papers live under Applied-Ai-Philosophy.
+### Token Compressor / Session Memory
+Applied components derived from interpretability and reliability work.
+
+## Research Standards
+
+Every serious track should expose:
+- claim and scope
+- evidence with artifact paths
+- reproduction commands
+- limitations and threats to validity
+- next validation step
 
 ---
 
 ## Collaboration
 
-Open an issue for replication attempts, critical feedback, or research dialogue.
+Use issues for replication attempts, critiques, and technical research dialogue.
 
 > "Observe before you act. Measure before you trust."
