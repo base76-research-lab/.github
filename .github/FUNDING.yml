@@ -1,5 +1,8 @@
 # Base76 Research Lab funding links
-# Temporary setup: route support inquiries to canonical contact page.
+# Patreon is pending account creation; switch on by setting `patreon: <username>`.
+# Example:
+# patreon: base76researchlab
 custom:
   - "https://base76.se/contact/"
   - "https://base76.se/en/"
+  - "mailto:bjorn@base76.se?subject=Support%20Base76%20Research"
