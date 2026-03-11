@@ -1,8 +1,6 @@
 # Base76 Research Lab funding links
-# Patreon is pending account creation; switch on by setting `patreon: <username>`.
-# Example:
-# patreon: base76researchlab
+# Patreon is active via custom URL path.
 custom:
+  - "https://www.patreon.com/c/AppliedAiPhilosophy"
   - "https://base76.se/contact/"
-  - "https://base76.se/en/"
   - "mailto:bjorn@base76.se?subject=Support%20Base76%20Research"
